@@ -37,6 +37,8 @@ int main() {
 }
 #endif
 
+void disp();
+
 int main() {
 
 	std::ifstream fileStatus;
