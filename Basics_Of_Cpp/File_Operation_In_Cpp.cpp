@@ -37,6 +37,7 @@ int main() {
 }
 #endif
 
+#if 0
 void disp();
 
 int main() {
@@ -106,3 +107,8 @@ else
 	cout << "Unexpected value in defined file location" << endl;
 }
 #endif
+#endif
+
+int main() {
+	cout << "Hello" << endl;
+}

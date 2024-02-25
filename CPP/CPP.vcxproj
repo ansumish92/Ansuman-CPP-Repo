@@ -150,7 +150,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Basics_Of_Cpp\File_Operation_In_Cpp.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Basics_Of_Cpp\Friend_Class_And_Friend_Function.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -179,7 +179,7 @@
     <ClCompile Include="..\Basics_Of_Cpp\ObjectOrientedProgramming_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\Basics_Of_Cpp\Operator_Overloading.cpp">
+    <ClCompile Include="..\Basics_Of_Cpp\Operator_Overloading_Old.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\Basics_Of_Cpp\Passing_And_Returning_Obj_In_A_Function.cpp">
@@ -206,9 +206,11 @@
     <ClCompile Include="..\Basics_Of_Cpp\Testing.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Operator_Overloading.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Basics_Of_Cpp\Headers\Student_Class.h" />
+    <ClInclude Include="Operator_Overloading.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
