@@ -81,7 +81,7 @@
     <ClCompile Include="..\Basics_Of_Cpp\Synopsis_Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Basics_Of_Cpp\Operator_Overloading.cpp">
+    <ClCompile Include="..\Basics_Of_Cpp\Operator_Overloading_Old.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\Basics_Of_Cpp\Class_Template.cpp">
@@ -93,9 +93,15 @@
     <ClCompile Include="..\Basics_Of_Cpp\2x2_Mtrx_Multiply.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Operator_Overloading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Basics_Of_Cpp\Headers\Student_Class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Operator_Overloading.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
