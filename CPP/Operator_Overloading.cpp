@@ -7,7 +7,7 @@ void Complexclass::dispComplexNum() {
 	cout << this->real << " +i" << this->img << endl;;
 }
 #ifndef ADD_METHOD
-Complexclass Complexclass::addition(Complexclass &x1) {
+Complexclass Complexclass::addition(Complexclass& x1) {
 	Complexclass tempObj;
 	tempObj.real = this->real + x1.real;
 	tempObj.img = this->img + x1.img;
@@ -17,7 +17,7 @@ Complexclass Complexclass::addition(Complexclass &x1) {
 #endif
 
 #ifndef ADD_OPR
-/* Definition of overloading of "+" operator 
+/* Definition of overloading of "+" operator
 * This definition can also be kept inside Class definition.
 */
 Complexclass Complexclass::operator+(Complexclass& x1) {
@@ -49,7 +49,7 @@ Complexclass Complexclass::operator+=(Complexclass& x1) {
 Complexclass Complexclass::operator-(Complexclass& y1) {
 
 	Complexclass tempOprObj;
-	
+
 	tempOprObj.real = this->real - y1.real;
 	tempOprObj.img = this->img - y1.img;
 
@@ -126,7 +126,7 @@ int main() {
 
 #ifndef ADD_OPR
 	Complexclass c1o(100, 200), c2o(300, 400), c3o;
-	
+
 	cout << endl << "Performing addition operator overloading." << endl;
 	c1o.dispComplexNum();
 	c2o.dispComplexNum();
@@ -198,7 +198,7 @@ int main() {
 
 #ifndef POST_INC_OPR
 	Complexclass Obj1(5, 6);
-	
+
 	cout << endl << "Before Performing post-increment operator overloading." << endl;
 	Obj1.dispComplexNum();
 

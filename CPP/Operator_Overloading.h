@@ -26,7 +26,7 @@ public:
 
 	void dispComplexNum();
 #ifndef ADD_METHOD
-	Complexclass addition(Complexclass &x1); // Instead of this method we can use operator overloading.
+	Complexclass addition(Complexclass& x1); // Instead of this method we can use operator overloading.
 #endif
 
 #ifndef ADD_OPR
